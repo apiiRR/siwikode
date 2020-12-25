@@ -1924,6 +1924,7 @@ a.theme-link:hover {
 .footer {
     background-color: #000;
     color: #fff;
+    margin-bottom: 0px;
 }
 
 .copyright {
