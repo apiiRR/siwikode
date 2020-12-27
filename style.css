@@ -176,9 +176,9 @@ a.theme-link:hover {
 }
 
 .form-control {
-    padding-top: 0.875rem;
-    padding-bottom: 0.875rem;
-    height: 2.75rem;
+    /* padding-top: 0.875rem; */
+    /* padding-bottom: 0.875rem; */
+    /* height: 2.75rem; */
     border-color: #dee1fc
 }
 
@@ -1848,6 +1848,11 @@ a.theme-link:hover {
 
 .auth-wrapper {
     max-width: 560px;
+    background: white
+}
+
+.auth-wrapper-registrasi {
+    max-width: 1020px;
     background: white
 }
 

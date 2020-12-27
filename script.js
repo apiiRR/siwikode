@@ -9,13 +9,13 @@ function validate() {
     let name = document.querySelector('#signin-email').value
     let password = document.querySelector('#signin-password').value
 
-    if (name == "ramadhanarafi437@gmail.com" && password == 'ramadhana123') {
+    if (name == "admin" && password == 'admin') {
         window.location = "beranda-admin.html";
-        alert("Login anda berhasil")
-        return false
+        alert('sukses')
+        return false;
 
     } else {
-        alert('Yang anda masukkan salah')
-        return false
+        alert('Yang anda masukkan salah');
+        return false;
     }
 }
