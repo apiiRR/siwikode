@@ -97,9 +97,9 @@ a.theme-link:hover {
 }
 
 @media only screen and (min-width: 992px) {
-    .card {
-        min-height: 450px;
-    }
+    /* .card { */
+    /* min-height: 450px; */
+    /* } */
 }
 
 @media only screen and (max-width: 992px) {
@@ -1856,6 +1856,11 @@ a.theme-link:hover {
     background: white
 }
 
+.auth-wrapper-edit {
+    min-width: 1020px;
+    background: white
+}
+
 .auth-wrapper .auth-heading {
     font-size: 1.5rem
 }
@@ -1950,4 +1955,16 @@ a.theme-link:hover {
 
 .shadow-none {
     box-shadow: none !important
+}
+
+.custom-file-label {
+    text-align: left;
+}
+
+.custom-file {
+    width: 200px;
+}
+
+.lh-50 {
+    line-height: 50px;
 }
