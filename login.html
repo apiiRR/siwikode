@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome JS-->
+    <script defer src="fontawesome/js/all.min.js"></script>
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="plugins/tiny-slider/tiny-slider.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>SIWIKODE - Sistem Informasi Wisata Kota Depok</title>
+</head>
+
+<body class="theme-bg-light">
+
+    <header class="header fixed-top">
+        <div class="branding">
+            <div class="container-fluid position-relative">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="images/information-button.svg" alt="logo"><span class="logo-text muncul">SIWI<span class="text-alt muncul">KODE</span></span>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-lg-auto">
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link" href="index.html">Beranda</a>
+                            </li>
+                            <li class="nav-item dropdown mr-lg-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right rounded shadow menu-animate slideIn" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item has-icon" href="rekreasi.html"><span class="theme-icon-holder mr-2"><i class="fas fa-globe-asia fa-fw"></i></span> Wisata Rekreasi</a>
+                                    <div class="dropdown-divider m-0"></div>
+                                    <a class="dropdown-item has-icon" href="kuliner.html"><span class="theme-icon-holder mr-2"><i class="fas fa-hamburger fa-fw"></i></span> Wisata Kuliner</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link" href="registrasi.html">Registrasi</a>
+                            </li>
+                            <li class="nav-item mr-lg-0 mt-3 mt-lg-0">
+                                <a href="login.html" class="btn btn-primary text-white">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="auth-section login-section text-center py-5">
+        <div class="container">
+
+            <div class="auth-wrapper mx-auto shadow p-5 rounded">
+
+                <h2 class="auth-heading text-center mb-5">Silahkan Masuk </h2>
+
+                <div class="auth-form-container text-left mx-auto">
+                    <form class="auth-form login-form">
+                        <div class="form-group email">
+                            <label class="sr-only" for="signin-email">Email</label>
+                            <input id="signin-email" name="signin-email" type="email" class="form-control signin-email" placeholder="Email address" required="required">
+                        </div>
+                        <!--//form-group-->
+                        <div class="form-group password">
+                            <label class="sr-only" for="signin-password">Password</label>
+                            <input id="signin-password" name="signin-password" type="password" class="form-control signin-password" placeholder="Password" required="required">
+                            <div class="extra mt-3 row justify-content-between">
+                                <div class="col-6">
+                                    <div class="checkbox remember">
+                                        <label>
+											<input type="checkbox">  Remember me
+										</label>
+                                    </div>
+                                    <!--//check-box-->
+                                </div>
+                                <!--//col-6-->
+                                <div class="col-6">
+                                    <div class="forgot-password text-lg-right">
+                                        Forgot password? Call Admin
+                                    </div>
+                                </div>
+                                <!--//col-6-->
+                            </div>
+                            <!--//extra-->
+                        </div>
+                        <!--//form-group-->
+                        <div class="text-center">
+                            <button id="login-button" type="submit" class="btn btn-primary btn-block theme-btn mx-auto">Log In</button>
+                        </div>
+                    </form>
+
+                    <div class="auth-option text-center pt-5">No Account? Call Admin.</div>
+                </div>
+                <!--//auth-form-container-->
+
+            </div>
+            <!--//auth-wrapper-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//auth-section-->
+
+
+    <footer class="footer">
+        <!--//newsletter-section-->
+        <div class="footer-bottom text-center pb-3 pt-3">
+            <small class="copyright">Copyright &copy; 2020 made with <i class="fas fa-heart" style="color: red;"></i> </small>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
