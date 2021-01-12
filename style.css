@@ -2027,3 +2027,9 @@ a.theme-link:hover {
 .komentar-next {
     margin-right: -50px;
 }
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: orangered;
+    color: #fff;
+}
