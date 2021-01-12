@@ -1857,7 +1857,7 @@ a.theme-link:hover {
 }
 
 .auth-wrapper-edit {
-    min-width: 1020px;
+    max-width: 1350px;
     background: white
 }
 
