@@ -2033,3 +2033,7 @@ a.theme-link:hover {
     background-color: orangered;
     color: #fff;
 }
+
+.about-photo {
+    height: 400px;
+}

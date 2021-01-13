@@ -24,7 +24,7 @@
     <title>SIWIKODE - Sistem Informasi Wisata Kota Depok</title>
 </head>
 
-<body class="theme-bg-light">
+<body>
 
     <header class="header fixed-top">
         <div class="branding">
@@ -60,7 +60,7 @@
                             <li class="nav-item mr-lg-4">
                                 <a class="nav-link" href="about.html">About</a>
                             </li>
-                            <li class="nav-item mr-lg-0 mt-3 mt-lg-0">
+                            <li class="nav-item mr-lg-0 mt-3 mt-lg-0 login">
                                 <a href="login.html" class="btn btn-primary text-white">Login</a>
                             </li>
                         </ul>
@@ -70,89 +70,72 @@
         </div>
     </header>
 
-    <section class="auth-section login-section text-center py-5">
+    <div class="page-header theme-bg-dark py-5 text-center position-relative">
+        <div class="theme-bg-shapes-right"></div>
+        <div class="theme-bg-shapes-left"></div>
         <div class="container">
-
-            <div class="auth-wrapper mx-auto shadow p-5 rounded">
-
-                <h2 class="auth-heading text-center mb-5">Silahkan Masuk </h2>
-
-                <div class="auth-form-container text-left mx-auto">
-                    <form class="auth-form login-form">
-                        <div class="form-group email">
-                            <label class="sr-only" for="signin-email">Email</label>
-                            <input id="signin-email" name="signin-email" type="email" class="form-control signin-email" placeholder="Email address" required="required">
-                        </div>
-                        <!--//form-group-->
-                        <div class="form-group password">
-                            <label class="sr-only" for="signin-password">Password</label>
-                            <input id="signin-password" name="signin-password" type="password" class="form-control signin-password" placeholder="Password" required="required">
-                            <div class="extra mt-3 row justify-content-between">
-                                <div class="col-12">
-                                    <div class="checkbox remember">
-                                        <label>
-											Forgot password? Call Admin
-										</label>
-                                    </div>
-                                    <!--//check-box-->
-                                </div>
-                            </div>
-                            <!--//extra-->
-                        </div>
-                        <!--//form-group-->
-                        <div class="text-center">
-                            <button id="login-button" type="submit" class="btn btn-primary btn-block theme-btn mx-auto">Log In</button>
-                        </div>
-                    </form>
-
-                    <div class="auth-option text-center pt-5">No Account? Call Admin.</div>
-                </div>
-                <!--//auth-form-container-->
-
-            </div>
-            <!--//auth-wrapper-->
+            <h1 class="page-heading single-col-max mx-auto">About Us</h1>
+            <div class="page-intro single-col-max mx-auto">Tim yang berada di balik pembuatan website ini.</div>
         </div>
-        <!--//container-->
-    </section>
-    <!--//auth-section-->
+    </div>
 
-    <div class="modal-backdrop fade show" id="backdrop" style="display: none;"></div>
-
-    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Keterangan Login</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <div class="container-fluid py-5">
+        <div class="card-deck">
+            <div class="card shadow">
+                <img class="card-img-top about-photo" src="images/about/rafi.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Rafi Ramadhana</h5>
+                    <h6 class="text-muted text-center">0110219085</h6>
+                    <p class="card-text pt-3">Saya adalah bagian dari pembuatan website ini sebagai project akhir mata kuliah pemrograman web I 2020.</p>
                 </div>
-                <div class="modal-body">
-                    Login sukses boss....
+                <div class="card-footer text-center">
+                    <i class="fab fa-instagram" style="font-size: 35px; color: purple;"></i>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            <div class="card shadow">
+                <img class=" card-img-top about-photo " src="images/about/ara (1).jpeg " alt="Card image cap ">
+                <div class="card-body ">
+                    <h5 class="card-title text-center ">Zahra Atikah Rahmah</h5>
+                    <h6 class="text-muted text-center ">0110219032</h6>
+                    <p class="card-text pt-3">Saya adalah bagian dari pembuatan website ini sebagai project akhir mata kuliah pemrograman web I 2020.</p>
+                </div>
+                <div class="card-footer text-center ">
+                    <i class="fab fa-instagram " style="font-size: 35px; color: purple; "></i>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img class="card-img-top about-photo" src="images/about/fazri.jpg" alt="Card image cap">
+                <div class="card-body ">
+                    <h5 class="card-title text-center ">Fazriyansah Ahmad</h5>
+                    <h6 class="text-muted text-center ">0110219071</h6>
+                    <p class="card-text pt-3">Saya adalah bagian dari pembuatan website ini sebagai project akhir mata kuliah pemrograman web I 2020.</p>
+                </div>
+                <div class="card-footer text-center ">
+                    <i class="fab fa-instagram " style="font-size: 35px; color: purple; "></i>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <footer class="footer">
+
+
+
+
+    <footer class="footer ">
         <!--//newsletter-section-->
-        <div class="footer-bottom text-center pb-3 pt-3">
-            <small class="copyright">Copyright &copy; 2020 made with <i class="fas fa-heart" style="color: red;"></i> </small>
+        <div class="footer-bottom text-center pb-3 pt-3 ">
+            <small class="copyright ">Copyright &copy; 2020 made with <i class="fas fa-heart " style="color: red; "></i> </small>
         </div>
     </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="script.js "></script>
 </body>
 
 </html>
